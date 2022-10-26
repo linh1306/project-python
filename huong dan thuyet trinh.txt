@@ -1,0 +1,110 @@
+Poin: 	D		Properties:	B
+-> Add point -> Add
+
+Poin: 	D		Properties:	sqrt(3) 1 0
+-> Add point -> Add
+
+Poin:	H		Properties:	AB
+-> Add point -> Add
+
+Poin:	G		Properties:	ABC
+-> Add point -> Add
+
+Poin:	H		Properties:	S AB
+-> Add point -> Add
+
+Poin:	H		Properties:	S ABC
+-> Add point -> Add
+
+Poin:	K		Properties:	AD BC
+-> Add point -> Add
+
+
+
+
+Line:	AB		Properties:	cyan
+-> Add line -> Add
+
+Line:	AB		Properties:			Value:	4
+-> Add line -> Add
+
+Line:	AB		Properties:	AC		
+-> Add line -> Add
+
+
+
+Input:	S.ABC = sqrt(4)*3
+-> Add1 -> Add
+
+Input:	S.ABC = sqrt(4)*3 5
+-> Add1 -> Add
+
+
+Delete: all
+-> Apply
+Input:	AS BC = 4|| AB = 3 || SAC SAB ABC = 90
+-> Add1 
+-> Output data
+-> Enter -> Add
+
+
+Delete: A
+-> Apply -> Add
+
+Input:	reset
+-> Add1 -> Add
+
+Delete: BC
+-> Apply -> Add
+
+
+
+Find:	S.ABC
+-> Search
+
+Find:	(ABC)
+-> Search
+
+Find:	ABC
+-> Search
+
+Find:	AB
+-> Search
+
+
+
+Delete: all
+-> Apply
+Input:	AB BC = 3 || AC = sqrt(2)*3 || SA SB SC = 4
+-> Add1 
+Poin:	D		Properties:	AC
+-> Add point
+Line: BD        Properties: 2 BD
+-> Output data
+-> Enter -> Add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -59,10 +59,25 @@ def output():
 
     ax.set_aspect('equal')
     plt.show()
-
+ 
 def data_false(message):
     dt_false = Tk()
     dt_false.title('Error!')
+    dt_false.geometry('600x160')
+    dt_false.configure(bg=BACKGROUND_COL)
+
+    dt_false.grid_columnconfigure(0, weight=1)
+    dt_false.grid_rowconfigure(0, weight=1)
+    dt_false.grid_rowconfigure(1, weight=1)
+
+    textLabel = Label(dt_false, text=message, bg=BACKGROUND_COL, fg=FOREGROUND_COL, font=(BODY_FONT, 15)).grid(row=0,column=0)
+    okButton = Button(dt_false, text="OK", command=dt_false.destroy, bg=BUTTON_COL, fg=FOREGROUND_COL,font=(BODY_FONT, 15)).grid(row=1, column=0)
+
+    dt_false.mainloop()
+
+def sdata(message):
+    dt_false = Tk()
+    dt_false.title('Output')
     dt_false.geometry('600x160')
     dt_false.configure(bg=BACKGROUND_COL)
 
